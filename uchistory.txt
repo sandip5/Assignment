@@ -1,0 +1,162 @@
+  315  git init
+  320  git init
+  321  nano .gitignore
+  323  cat .gitignore
+  325  git init
+  326  nano .gitignore
+  331  nano .gitignore
+  332  nano .gitignore
+  334  cat .gitignore
+  335  git status
+  336  git add .
+  337  git status
+  338  git commit -m "first commit"
+  339  git remote add origin https://github.com/sandip5/shellscript.git
+  340  git push -u origin master
+  424  git add .
+  425  git commit -m "Added new word"
+  426  git push -u origin master
+  427  git checkout -b sandip
+  429  nano gitone.txt
+  430  git add .
+  431  git commit -m "Added new line"
+  432  git push -u origin sandip
+  433  git merge sandip
+  434  git checkout master
+  435  git merge sandip
+  437  nano gitone.txt
+  438  git add .
+  439  git push -u origin master
+  440  git checkout sandip
+  441  nano gitone.txt
+  442  git add .
+  443  git commit -m "Added one more new line"
+  444  git pull
+  445  git status
+  446  nano gitone.txt
+  447  git push -u origin sandip
+  448  git add .
+  449  git commit -m "Added onr more new line"
+  450  git status
+  451  git push -u origin sandip
+  452  git pull
+  453  git status
+  454  git checkout master
+  455  git status
+  456  nano gitone.txt
+  457  git pull
+  458  cat gitone.txt
+  459  History | git
+  460  histort | grep git
+  461  history | grep git
+  467  touch .gitignore
+  469  nano .gitignore
+  470  git init
+  472  git add .
+  473  git commit -m "first commit"
+  474  git remote add origin https://github.com/sandip5/Assignment.git
+  475  git push -u origin master
+  478  git branch -b EmployeeAttendanceUC
+  479  git checkout -b EmployeeAttendanceUC
+  480  git checkout master
+  483  git checkout EmployeeAttendanceUC
+  491  git merge master
+  492  git checkout master
+  494  git merge EmployeeAttendanceUC
+  495  git checkout EmployeeAttendanceUC
+  496  git add .
+  497  git commit -m "Check Employee is Present or Absent"
+  498  git push -u origin EmployeeAttendanceUC
+  499  git checkout master
+  503  git pull
+  505  git checkout -b DailyEmployeeWageUC
+  508  git checkout EmployeeAttendanceUC
+  522  git add .
+  523  git commit -m "Delete unnecessary line"
+  524  git status
+  525  git push -u origin EmployeeAttendanceUC
+  526  git status
+  527  git checkout master
+  528  git pull
+  532  git checkout DailyEmployeeWageUC
+  537  git add .
+  538  git commit -m "Add new feature - Calculate Employee Daily Wage"
+  539  git push -u origin DailyEmployeeWageUC
+  540  git status
+  542  git pull
+  544  git checkout master
+  545  git merge DailyEmployeeWageUC
+  546  git status
+  547  git pull
+  549  git status
+  550  git merge DailyEmployeeWageUC
+  551  git checkout EmployeeAttendanceUC
+  552  git pull
+  553  git status
+  554  git checkout master
+  555  git push -u origin master
+  556  git checkout -b AddPartTimeEmployeeAndWage
+  565  git add .
+  566  git commit -m "Add new feature - Add Part time Employee & Wage"
+  567  git push -u origin AddPartTimeEmployeeAndWage
+  568  git status
+  569  git checkout master
+  570  git merge AddPartTimeEmployeeAndWage
+  571  git status
+  573  git add .
+  574  git commit -m "Added new feature - Add Part Time Employee and Wage"
+  575  git push -u origin master
+  576  git checkout -b SwitchCaseStatementUC
+  581  git add .
+  582  git commit -m "Use of Switch Case Statement"
+  583  git push -u origin SwitchCaseStatementUc
+  584  git push -u origin SwitchCaseStatementUC
+  585  git checkout master
+  586  git pull
+  587  git checkout -b WagesForMonthUC
+  597  git add .
+  598  git commit -m "Calculating Wages for a month"
+  599  git push -u origin WagesForMonthUC
+  600  git checkout master
+  601  git checkout SwitchCaseStatement
+  602  git checkout SwitchCaseStatementUC
+  603  git pull
+  604  git checkout master
+  605  git merge WagesForMonthUC
+  606  git add .
+  607  git commit -m "Calculating Wages for month"
+  608  git push -u origin master
+  609  git checkout -b CalculateWagesTillConditionOfTotalWorkingHours
+  610  git checkout -b master
+  611  git checkout master
+  612  git checkout -b CalculateWagesTillConditionOfTotalWorkingHoursUC
+  653  git add .
+  654  git commit -m "Calculate Wages till"
+  658  git commit -m "Calculate Wages till a condition of total working hours"
+  659  git push -u origin CalculateWagesTillConditionOfTotalWorkingHoursUC
+  660  git status
+  661  git checkout master
+  662  git pull
+  664  git checkout -b FunctionGetWorkHours
+  678  git add .
+  679  git commit -m "Refactor the code to write a function to get work hours"
+  680  git push -u FunctionGetWorkHoursUC
+  681  git push -u FunctionGetWorkHours
+  682  git push -u FunctionGetWorkHours
+  683  git push -u origin FunctionGetWorkHours
+  684  git checkout master
+  685  git pull
+  686  git checkout -b StoreDailyWageUC
+  691  git add .
+  692  git commit -m "Store daily wage along with total wage"
+  693  git push -u origin StoreDailyWageUC
+  694  git checkout master
+  695  git pull
+  696  git checkout -b StoreDayAndDailyWage
+  711  git add .
+  712  git commit -m "Store the Day and Daily Wage along with Total Wage"
+  713  git push -u origin StoreDayAndDailyWage
+  714  git status
+  715  git checkout master
+  716  git pull
+  717  history | grep git > "uchistory.txt"
