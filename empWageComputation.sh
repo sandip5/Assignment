@@ -14,7 +14,7 @@ case $empCheck in
 			empHrs=4
 			;;
 		*)
-			empHrs=0;
+			empHrs=0
 			;;
 esac			
 
