@@ -2,10 +2,9 @@
 echo "Welcome to Employee Wage Computation"
 
 isPresent=0;
-isAbsent=1;
 randomNumber=$(( RANDOM%2 ))
 
-if [[ randomNumber -eq isPresent ]]
+if [[ isPresent -eq randomNumber ]]
 then
 	empRatePerHrs=20;
 	empHrs=8;
