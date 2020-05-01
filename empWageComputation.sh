@@ -6,7 +6,9 @@ randomNumber=$(( RANDOM%2 ))
 
 if [[ randomNumber -eq isPresent ]]
 then
-	echo "Employee is Present"
+	empRatePerHrs=20;
+	empHrs=8;
+	salary=$(( $empHrs * $empRatePerHrs ))
 else
-	echo "Employee is Absent"
+	salary=0;
 fi
