@@ -1,14 +1,19 @@
 #!/bin/bash -x
 echo "Welcome to Employee Wage Computation"
 
-isPresent=0;
-randomNumber=$(( RANDOM%2 ))
+isPartTime=1;
+isFullTime=2;
+empRatePerHrs=20;
+randomCheck=$(( RANDOM%3 ))
 
-if [[ isPresent -eq randomNumber ]]
+if [[ isFullTime -eq randomCheck ]]
 then
-	empRatePerHrs=20;
 	empHrs=8;
-	salary=$(( $empHrs * $empRatePerHrs ))
+elif [[ isPartTime -eq randomCheck ]]
+then 
+	empHrs=4;
 else
-	salary=0;
+	empHrs=0;
 fi
+
+salary=$(( $empHrs * $empRatePerHrs ))
